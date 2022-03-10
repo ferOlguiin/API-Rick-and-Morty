@@ -1,0 +1,38 @@
+* {
+    font-family: 'Rufina', serif;
+}
+
+@font-face {
+    font-family: 'shlop';
+    src: url(shlop\ rg.ttf);
+}
+
+.fuente {
+    font-family: 'shlop';
+    font-size: 100px;
+    color: #02AFC5;
+    text-shadow: 1px 1px 4px #F0E14A, 1px 1px 7px #F0E14A;
+}
+
+.pr1::before {
+    content: "Specie: ";
+    font-weight: bold;
+}
+.pr2::before {
+    content: "Status: ";
+    font-weight: bold;
+    color: black !important;
+}
+.pr3::before {
+    content: "Gender: ";
+    font-weight: bold;
+}
+
+.sombra {
+    box-shadow: 3px 3px 13px black;
+}
+
+.sombra:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
